@@ -18,9 +18,10 @@
 4. Приложение будет доступно по адресу
 http://localhost:5173
 
-./src/demo/demo1.png
-./src/demo/demo2.png
-./src/demo/demo3.png
-./src/demo/demo4.png
+
+![alt text](./src/demo/demo1.png)
+![alt text](./src/demo/demo2.png)
+![alt text](./src/demo/demo3.png)
+![alt text](./src/demo/demo4.png)
 
 Приятного использования! 📝
