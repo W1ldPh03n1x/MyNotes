@@ -1,0 +1,29 @@
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--app-primary-color);
+	color: var(--app-text-color);
+}
+
+.theme-light {
+	--app-primary-color: var(--primary-white);
+	--app-secondary-color: var(--secondary-white);
+	--app-text-color: var(--primary-black);
+	--app-text-light-color: var(--secondary-black);
+	--app-primary-color--semitransperent: var(--primary-white-a60);
+	--note-color: #ffe77d;
+	--note-color-editing: #fff0ab;
+	--app-accent-color: var(--decoration-purple);
+}
+
+.theme-dark {
+	--note-color: var(--decoration-dark-blue);
+	--note-color-editing: var(--decoration-light-blue);
+	--app-primary-color: var(--primary-black);
+	--app-secondary-color: var(--secondary-black);
+	--app-text-color: var(--primary-white);
+	--app-text-light-color: #eeeeee;
+	--app-primary-color--semitransperent: var(--primary-black-a60);
+	--app-accent-color: var(--decoration-orange);
+}

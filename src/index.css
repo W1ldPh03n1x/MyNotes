@@ -1,0 +1,43 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+	--primary-white: #ffffff;
+	--primary-white-a60: rgba(255, 255, 255, 0.6);
+	--primary-white-a80: rgba(255, 255, 255, 0.8);
+	--secondary-white: #e5e5e5;
+	--primary-black: #000000;
+	--primary-black-a80: rgba(0, 0, 0, 0.8);
+	--primary-black-a60: rgba(0, 0, 0, 0.6);
+
+	--secondary-black: #2d3546;
+	--secondary-black-a60: rgba(20, 33, 61, 0.6);
+	--shadow-color-a20: rgba(0, 0, 0, 0.2);
+	--decoration-yellow: ffe77d;
+	--decoration-light-green: #aaf683;
+	--decoration-dark-green: #60d394;
+	--decoration-red: #ff7065;
+	--decoration-pink: #ff9b85;
+	--decoration-purple: #ac97e3;
+	--decoration-orange: #f58549;
+	--decoration-dark-blue: #4b6cb7;
+	--decoration-light-blue: #5f7fcf;
+	--decoration: #ffe77d;
+
+	--content-width: 1200px;
+}
+
+body {
+	/* background: var(--primary-white); */
+	flex-grow: 1;
+}
+html {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+#root {
+	min-height: 100vh;
+}
